@@ -25,7 +25,7 @@ const Aside = () => {
         </figure>
 
         <div className="info-content">
-          <h1 className="name" title="Richard hanrick">
+          <h1 className="name" title="Krunal Mandlekar">
             Krunal Mandlekar
           </h1>
           <div className="profile_tabs">

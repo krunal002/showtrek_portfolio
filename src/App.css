@@ -314,7 +314,7 @@ article.active {
 \*-----------------------------------*/
 
 main {
-  /* margin: 15px 12px; */
+  margin: 15px 12px;
   margin-bottom: 75px;
   min-width: 259px;
 }
@@ -1459,7 +1459,7 @@ textarea.form-input::-webkit-resizer {
    */
 
   main {
-    margin-top: 10px;
+    margin-top: 60px;
     margin-bottom: 100px;
   }
 
