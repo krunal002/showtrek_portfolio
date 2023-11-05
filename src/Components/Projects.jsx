@@ -58,7 +58,11 @@ const Projects = () => {
             data-filter-item
             data-category="web development"
           >
-            <a href="https://sportysnap.netlify.app/" target="_blank" rel="noreferrer">
+            <a
+              href="https://sportysnap.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <figure className="project-img">
                 <div className="project-item-icon-box">
                   <VisibilityIcon />
@@ -88,7 +92,11 @@ const Projects = () => {
             data-filter-item
             data-category="web development"
           >
-            <a href="https://pristinecard.netlify.app/" target="_blank" rel="noreferrer">
+            <a
+              href="https://pristinecard.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <figure className="project-img">
                 <div className="project-item-icon-box">
                   <VisibilityIcon />
@@ -107,6 +115,53 @@ const Projects = () => {
                 Utilized ReactJS, MockBee, and a range of front-end
                 technologies. Achieved user authentication, robust filtering and
                 sorting, and streamlined cart and order management.
+              </p>
+
+              <p className="project-category">Web development</p>
+            </a>
+          </li>
+        </ul>
+
+        <br />
+
+        <ul>
+          <li
+            className="project-item  active"
+            data-filter-item
+            data-category="web development"
+          >
+            <a
+              href="https://budget-budy.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3 className="project-title">Budget Buddy</h3>
+
+              <p className="project-category">Financial Management App</p>
+              <p className="project-category">
+                Tech Stack : ReactJS, Redux, MongoDB, Express JS, material ui,
+                HTML, CSS
+              </p>
+
+              <p className="project-category">Full Stack</p>
+            </a>
+          </li>
+          <br />
+          <li
+            className="project-item  active"
+            data-filter-item
+            data-category="web development"
+          >
+            <a
+              href="https://component-library-002.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3 className="project-title">Component Library</h3>
+
+              <p className="project-category">CSS Component Library App</p>
+              <p className="project-category">
+                Tech Stack : ReactJS, material ui, HTML, CSS
               </p>
 
               <p className="project-category">Web development</p>
