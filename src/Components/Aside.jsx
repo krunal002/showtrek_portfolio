@@ -18,7 +18,7 @@ const Aside = () => {
       <div className="sidebar-info">
         <figure className="avatar-box" style={{ borderRadius: "50%" }}>
           <img
-            src="https://res.cloudinary.com/dfw7zitgl/image/upload/v1699173357/mz9jyrspz5fd54pdejdy.jpg"
+            src="https://res.cloudinary.com/dfw7zitgl/image/upload/v1699181385/krunal002.jpg"
             alt="krunal"
             width="80"
           />
