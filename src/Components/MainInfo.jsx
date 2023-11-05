@@ -4,7 +4,6 @@ import Resume from "./Resume";
 import Projects from "./Projects";
 import Blogs from "./Blogs";
 
-import "./styles.css";
 import { DataContext } from "../Context/DataContext";
 import Navbar from "./Navbar";
 

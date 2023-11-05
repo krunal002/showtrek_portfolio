@@ -1,12 +1,19 @@
-import './App.css';
-import Aside from './Components/Aside';
+import "./App.css";
+import "./index.css";
+// import "../src/script.js";
+
+import Aside from "./Components/Aside";
+// import Blogs from "./Components/Blogs.jsx";
+import MainInfo from "./Components/MainInfo";
 
 function App() {
-  return (
-    <main>  
-      <Aside />
-    </main>
-  );
+    return (
+        <main>
+            <Aside />
+            <MainInfo />
+        </main>
+    );
 }
 
 export default App;
+// Blogs;
