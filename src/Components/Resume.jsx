@@ -29,8 +29,10 @@ const Resume = () => {
             <span>Apr 2022 — Nov 2022</span>
 
             <p className="timeline-text">
-              Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit
-              atque corrupti, quos dolores et qvuas molestias exceptur.
+              Gained expertise in building responsive and dynamic user
+              interfaces using React. Collaborated on team projects to develop
+              and maintain web applications, ensuring a seamless user
+              experience.
             </p>
           </li>
         </ol>
@@ -169,13 +171,13 @@ const Resume = () => {
               title="Postman"
             />
           </div> */}
-          <div className="icon-box" title="Material UI">
+          {/* <div className="icon-box" title="Material UI">
             <img
               src="https://res.cloudinary.com/dfw7zitgl/image/upload/v1699178022/Portfolio/materialUi.svg"
               alt="materialUi"
               title="Material UI"
             />
-          </div>
+          </div> */}
         </ul>
       </section>
     </article>
