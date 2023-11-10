@@ -59,7 +59,7 @@ const About = () => {
           <li className="service-item">
             <div className="service-icon-box">
               <img
-                src="https://res.cloudinary.com/dfw7zitgl/image/upload/v1699176382/Portfolio/webDesign.svg"
+                src="https://res.cloudinary.com/dwegb6a4s/image/upload/v1698583222/icon-dev_dv8ox1.svg"
                 alt="Web development icon"
                 width="40"
               />
