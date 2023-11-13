@@ -1,5 +1,4 @@
 import React from "react";
-
 import VisibilityIcon from "@mui/icons-material/Visibility";
 
 const Projects = () => {
@@ -128,78 +127,106 @@ const Projects = () => {
 
         <br />
 
-        <ul style={{ borderTop:"1px solid gray"}}>
-          <br />
+        <h4 className="h3 service-item-title">More projects - </h4>
+        <ul className="service-list">
           {/* EduSculptor */}
-          <li
-            className="project-item  active"
-            data-filter-item
-            data-category="web development"
+          <a
+            href="https://edu-sculptor.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="service-item"
           >
-            <a
-              href="https://edu-sculptor.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <h3 className="project-title">EduSculptor</h3>
+            <div className="service-icon-box">
+              <img
+                src="https://res.cloudinary.com/dwegb6a4s/image/upload/v1698583222/icon-dev_dv8ox1.svg"
+                alt="design icon"
+                width="40"
+              />
+            </div>
 
-              <p className="project-category">Students Management App</p>
-              <p className="project-category">
-                Tech Stack : ReactJS, Redux, MongoDB, Express JS, material ui,
+            <div className="service-content-box">
+              <h4 className="h4 service-item-title">EduSculptor</h4>
+              <span>Students Management App</span>
+              <p className="service-item-text">
+                Tech Stack : ReactJS, Redux, MongoDB, Express JS, Material UI,
                 HTML, CSS
               </p>
-
-              <p className="project-category">Full Stack</p>
-            </a>
-          </li>
-          <br />
+            </div>
+          </a>
 
           {/* Patient Care */}
-          <li
-            className="project-item  active"
-            data-filter-item
-            data-category="web development"
+          <a
+            href="https://patientsCare.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="service-item"
           >
-            <a
-              href="https://patientscare.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <h3 className="project-title">Patient Care</h3>
+            <div className="service-icon-box">
+              <img
+                src="https://res.cloudinary.com/dwegb6a4s/image/upload/v1698583222/icon-dev_dv8ox1.svg"
+                alt="design icon"
+                width="40"
+              />
+            </div>
 
-              <p className="project-category">Patient Management App</p>
-              <p className="project-category">
-                Tech Stack : ReactJS, Redux, MongoDB, Express JS, material ui,
+            <div className="service-content-box">
+              <h4 className="h4 service-item-title">Patient Care</h4>
+              <span>Patients Management App</span>
+              <p className="service-item-text">
+                Tech Stack : Material UI, MongoDB, ReactJS, Redux, Express JS,
                 HTML, CSS
               </p>
+            </div>
+          </a>
 
-              <p className="project-category">Full Stack</p>
-            </a>
-          </li>
-          <br />
-
-          {/* Budget Buddy */}
-          <li
-            className="project-item  active"
-            data-filter-item
-            data-category="web development"
+          {/* Budget Budy */}
+          <a
+            href="https://budget-budy.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="service-item"
           >
-            <a
-              href="https://budget-budy.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <h3 className="project-title">Budget Buddy</h3>
+            <div className="service-icon-box">
+              <img
+                src="https://res.cloudinary.com/dwegb6a4s/image/upload/v1698583222/icon-dev_dv8ox1.svg"
+                alt="design icon"
+                width="40"
+              />
+            </div>
 
-              <p className="project-category">Finance Management App</p>
-              <p className="project-category">
-                Tech Stack : ReactJS, Redux, MongoDB, Express JS, material ui,
+            <div className="service-content-box">
+              <h4 className="h4 service-item-title">Budget_Buddy</h4>
+              <span>Finance Management App</span>
+              <p className="service-item-text">
+                Tech Stack : ReactJS, Redux, MongoDB, Express JS, Material UI,
                 HTML, CSS
               </p>
+            </div>
+          </a>
 
-              <p className="project-category">Full Stack</p>
-            </a>
-          </li>
+          {/* Component Library */}
+          <a
+            href="https://component-library-002.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="service-item"
+          >
+            <div className="service-icon-box">
+              <img
+                src="https://res.cloudinary.com/dwegb6a4s/image/upload/v1698583222/icon-dev_dv8ox1.svg"
+                alt="design icon"
+                width="40"
+              />
+            </div>
+
+            <div className="service-content-box">
+              <h4 className="h4 service-item-title">Component Library</h4>
+              <span>CSS Component Library</span>
+              <p className="service-item-text">
+                Tech Stack : ReactJS, React Context, Material UI, HTML, CSS
+              </p>
+            </div>
+          </a>
         </ul>
       </section>
     </article>
