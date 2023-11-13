@@ -23,7 +23,7 @@ const Projects = () => {
         </ul>
 
         <div className="filter-select-box">
-          <button className="filter-select" data-select>
+          {/* <button className="filter-select" data-select>
             <div className="select-value" data-selecct-value>
               Select category
             </div>
@@ -31,9 +31,9 @@ const Projects = () => {
             <div className="select-icon">
               <ion-icon name="chevron-down"></ion-icon>
             </div>
-          </button>
+          </button> */}
 
-          <ul className="select-list">
+          {/* <ul className="select-list">
             <li className="select-item">
               <button data-select-item>All</button>
             </li>
@@ -49,10 +49,11 @@ const Projects = () => {
             <li className="select-item">
               <button data-select-item>Web development</button>
             </li>
-          </ul>
+          </ul> */}
         </div>
 
         <ul className="project-list">
+          {/* Sporty snap */}
           <li
             className="project-item  active"
             data-filter-item
@@ -77,6 +78,7 @@ const Projects = () => {
 
               <h3 className="project-title">Sporty Snap</h3>
 
+              <p className="project-category">Social Media App</p>
               <p className="project-category">
                 Experience social media app, utilized ReactJS, and a full tech
                 stack. Highlights include user authentication, dynamic post
@@ -87,6 +89,7 @@ const Projects = () => {
             </a>
           </li>
 
+          {/* Pristine card */}
           <li
             className="project-item  active"
             data-filter-item
@@ -111,6 +114,7 @@ const Projects = () => {
 
               <h3 className="project-title">Pristine Cards</h3>
 
+              <p className="project-category">E-Commerse App</p>
               <p className="project-category">
                 Utilized ReactJS, MockBee, and a range of front-end
                 technologies. Achieved user authentication, robust filtering and
@@ -124,7 +128,57 @@ const Projects = () => {
 
         <br />
 
-        <ul>
+        <ul style={{ borderTop:"1px solid gray"}}>
+          <br />
+          {/* EduSculptor */}
+          <li
+            className="project-item  active"
+            data-filter-item
+            data-category="web development"
+          >
+            <a
+              href="https://edu-sculptor.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3 className="project-title">EduSculptor</h3>
+
+              <p className="project-category">Students Management App</p>
+              <p className="project-category">
+                Tech Stack : ReactJS, Redux, MongoDB, Express JS, material ui,
+                HTML, CSS
+              </p>
+
+              <p className="project-category">Full Stack</p>
+            </a>
+          </li>
+          <br />
+
+          {/* Patient Care */}
+          <li
+            className="project-item  active"
+            data-filter-item
+            data-category="web development"
+          >
+            <a
+              href="https://patientscare.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3 className="project-title">Patient Care</h3>
+
+              <p className="project-category">Patient Management App</p>
+              <p className="project-category">
+                Tech Stack : ReactJS, Redux, MongoDB, Express JS, material ui,
+                HTML, CSS
+              </p>
+
+              <p className="project-category">Full Stack</p>
+            </a>
+          </li>
+          <br />
+
+          {/* Budget Buddy */}
           <li
             className="project-item  active"
             data-filter-item
@@ -137,34 +191,13 @@ const Projects = () => {
             >
               <h3 className="project-title">Budget Buddy</h3>
 
-              <p className="project-category">Financial Management App</p>
+              <p className="project-category">Finance Management App</p>
               <p className="project-category">
                 Tech Stack : ReactJS, Redux, MongoDB, Express JS, material ui,
                 HTML, CSS
               </p>
 
               <p className="project-category">Full Stack</p>
-            </a>
-          </li>
-          <br />
-          <li
-            className="project-item  active"
-            data-filter-item
-            data-category="web development"
-          >
-            <a
-              href="https://component-library-002.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <h3 className="project-title">Component Library</h3>
-
-              <p className="project-category">CSS Component Library App</p>
-              <p className="project-category">
-                Tech Stack : ReactJS, material ui, HTML, CSS
-              </p>
-
-              <p className="project-category">Web development</p>
             </a>
           </li>
         </ul>

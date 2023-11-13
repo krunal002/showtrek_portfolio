@@ -34,7 +34,7 @@ const Blogs = () => {
 
                   <span className="dot"></span>
 
-                  <time dateTime="2022-02-23">Fab 17, 2023</time>
+                  <time dateTime="2022-02-23">Feb 17, 2023</time>
                 </div>
 
                 <h3 className="h3 blog-item-title">
