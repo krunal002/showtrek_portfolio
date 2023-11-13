@@ -127,7 +127,7 @@ const Projects = () => {
 
         <br />
 
-        <p className="h3 service-item-title">More projects - </p>
+        <p className="h5 service-item-title">More projects - </p>
         <ul className="service-list">
           {/* EduSculptor */}
           <a
