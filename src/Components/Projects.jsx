@@ -127,7 +127,7 @@ const Projects = () => {
 
         <br />
 
-        <h4 className="h3 service-item-title">More projects - </h4>
+        <p className="h3 service-item-title">More projects - </p>
         <ul className="service-list">
           {/* EduSculptor */}
           <a
@@ -147,10 +147,10 @@ const Projects = () => {
             <div className="service-content-box">
               <h4 className="h4 service-item-title">EduSculptor</h4>
               <span>Students Management App</span>
-              <p className="service-item-text">
+              {/* <p className="service-item-text">
                 Tech Stack : ReactJS, Redux, MongoDB, Express JS, Material UI,
                 HTML, CSS
-              </p>
+              </p> */}
             </div>
           </a>
 
@@ -172,10 +172,10 @@ const Projects = () => {
             <div className="service-content-box">
               <h4 className="h4 service-item-title">Patient Care</h4>
               <span>Patients Management App</span>
-              <p className="service-item-text">
+              {/* <p className="service-item-text">
                 Tech Stack : Material UI, MongoDB, ReactJS, Redux, Express JS,
                 HTML, CSS
-              </p>
+              </p> */}
             </div>
           </a>
 
@@ -197,10 +197,10 @@ const Projects = () => {
             <div className="service-content-box">
               <h4 className="h4 service-item-title">Budget_Buddy</h4>
               <span>Finance Management App</span>
-              <p className="service-item-text">
+              {/* <p className="service-item-text">
                 Tech Stack : ReactJS, Redux, MongoDB, Express JS, Material UI,
                 HTML, CSS
-              </p>
+              </p> */}
             </div>
           </a>
 
@@ -222,9 +222,9 @@ const Projects = () => {
             <div className="service-content-box">
               <h4 className="h4 service-item-title">Component Library</h4>
               <span>CSS Component Library</span>
-              <p className="service-item-text">
+              {/* <p className="service-item-text">
                 Tech Stack : ReactJS, React Context, Material UI, HTML, CSS
-              </p>
+              </p> */}
             </div>
           </a>
         </ul>
