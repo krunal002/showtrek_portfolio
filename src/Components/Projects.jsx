@@ -95,7 +95,7 @@ const Projects = () => {
             data-category="web development"
           >
             <a
-              href="https://pristinecard.netlify.app/"
+              href="https://netflix02.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
@@ -105,22 +105,22 @@ const Projects = () => {
                 </div>
 
                 <img
-                  src="https://res.cloudinary.com/dfw7zitgl/image/upload/v1699175040/Portfolio/pristineCard.png"
+                  src="https://res.cloudinary.com/dfw7zitgl/image/upload/v1716718996/Portfolio/netflix.png"
                   alt="pristinecard"
                   loading="lazy"
                 />
               </figure>
 
-              <h3 className="project-title">Pristine Cards</h3>
+              <h3 className="project-title">Netflix Clone</h3>
 
-              <p className="project-category">E-Commerse App</p>
+              <p className="project-category">OTT App</p>
               <p className="project-category">
-                Utilized ReactJS, MockBee, and a range of front-end
+                Utilized ReactJS, NodeJs and a range of full-stack
                 technologies. Achieved user authentication, robust filtering and
                 sorting, and streamlined cart and order management.
               </p>
 
-              <p className="project-category">Web development</p>
+              <p className="project-category">Full Stack</p>
             </a>
           </li>
         </ul>
@@ -147,10 +147,6 @@ const Projects = () => {
             <div className="service-content-box">
               <h4 className="h4 service-item-title">EduSculptor</h4>
               <span>Students Management App</span>
-              {/* <p className="service-item-text">
-                Tech Stack : ReactJS, Redux, MongoDB, Express JS, Material UI,
-                HTML, CSS
-              </p> */}
             </div>
           </a>
 
@@ -172,10 +168,6 @@ const Projects = () => {
             <div className="service-content-box">
               <h4 className="h4 service-item-title">Patient Care</h4>
               <span>Patients Management App</span>
-              {/* <p className="service-item-text">
-                Tech Stack : Material UI, MongoDB, ReactJS, Redux, Express JS,
-                HTML, CSS
-              </p> */}
             </div>
           </a>
 
@@ -197,10 +189,6 @@ const Projects = () => {
             <div className="service-content-box">
               <h4 className="h4 service-item-title">Budget_Buddy</h4>
               <span>Finance Management App</span>
-              {/* <p className="service-item-text">
-                Tech Stack : ReactJS, Redux, MongoDB, Express JS, Material UI,
-                HTML, CSS
-              </p> */}
             </div>
           </a>
 
@@ -222,9 +210,6 @@ const Projects = () => {
             <div className="service-content-box">
               <h4 className="h4 service-item-title">Component Library</h4>
               <span>CSS Component Library</span>
-              {/* <p className="service-item-text">
-                Tech Stack : ReactJS, React Context, Material UI, HTML, CSS
-              </p> */}
             </div>
           </a>
         </ul>
