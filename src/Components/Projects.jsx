@@ -95,7 +95,7 @@ const Projects = () => {
             data-category="web development"
           >
             <a
-              href="https://netflix02.netlify.app/"
+              href="https://netaflix.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
