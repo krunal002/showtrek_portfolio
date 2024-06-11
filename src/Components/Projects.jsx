@@ -16,9 +16,9 @@ const Projects = () => {
             </button>
           </li>
 
-          <li className="filter-item">
+          {/* <li className="filter-item">
             <button data-filter-btn>Web Applications</button>
-          </li>
+          </li> */}
         </ul>
 
         <div className="filter-select-box">
@@ -127,10 +127,10 @@ const Projects = () => {
 
         <br />
 
-        <p className="h5 service-item-title">More projects - </p>
+        {/* <p className="h5 service-item-title">More projects - </p> */}
         <ul className="service-list">
           {/* EduSculptor */}
-          <a
+          {/* <a
             href="https://edu-sculptor.netlify.app/"
             target="_blank"
             rel="noreferrer"
@@ -148,10 +148,10 @@ const Projects = () => {
               <h4 className="h4 service-item-title">EduSculptor</h4>
               <span>Students Management App</span>
             </div>
-          </a>
+          </a> */}
 
           {/* Patient Care */}
-          <a
+          {/* <a
             href="https://patientsCare.netlify.app/"
             target="_blank"
             rel="noreferrer"
@@ -169,10 +169,10 @@ const Projects = () => {
               <h4 className="h4 service-item-title">Patient Care</h4>
               <span>Patients Management App</span>
             </div>
-          </a>
+          </a> */}
 
           {/* Budget Budy */}
-          <a
+          {/* <a
             href="https://budget-budy.netlify.app/"
             target="_blank"
             rel="noreferrer"
@@ -190,10 +190,10 @@ const Projects = () => {
               <h4 className="h4 service-item-title">Budget_Buddy</h4>
               <span>Finance Management App</span>
             </div>
-          </a>
+          </a> */}
 
           {/* Component Library */}
-          <a
+          {/* <a
             href="https://component-library-002.netlify.app/"
             target="_blank"
             rel="noreferrer"
@@ -211,7 +211,7 @@ const Projects = () => {
               <h4 className="h4 service-item-title">Component Library</h4>
               <span>CSS Component Library</span>
             </div>
-          </a>
+          </a> */}
         </ul>
       </section>
     </article>
