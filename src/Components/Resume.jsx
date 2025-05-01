@@ -10,6 +10,7 @@ const Resume = () => {
         <h2 className="h2 article-title">Resume</h2>
       </header>
 
+      {/* Experience */}
       <section className="timeline">
         <div className="title-wrapper">
           <div className="icon-box">
@@ -20,6 +21,42 @@ const Resume = () => {
         </div>
 
         <ol className="timeline-list">
+          {/* HCL Tech */}
+          <li className="timeline-item">
+            <h4 className="h4 timeline-item-title">
+              HCL Tech, Nagpur (Analyst)
+            </h4>
+
+            <span>Jan 2024 — Present</span>
+
+            <p className="timeline-text">
+              Started as a support agent, managing issue resolution and
+              day-to-day support tasks, and later advanced to the role of
+              Subject Matter Expert (SME) within the project. In this capacity,
+              provided in-depth process knowledge, guided team members, assisted
+              in troubleshooting, and contributed to process improvements to
+              enhance overall team efficiency.
+            </p>
+          </li>
+
+          {/* neoG Camp */}
+          <li className="timeline-item">
+            <h4 className="h4 timeline-item-title">
+              neoG Camp, Bengaluru (Intern)
+            </h4>
+
+            <span>Feb 2023 — Nov 2023</span>
+
+            <p className="timeline-text">
+              Developed interactive and mobile-friendly web interfaces utilizing
+              React and Material UI, with a strong focus on performance and
+              usability. Worked in collaborative environments to build
+              full-stack applications, employing Redux for efficient state
+              handling and Express.js to manage server-side logic and APIs..
+            </p>
+          </li>
+
+          {/* Cognizant */}
           <li className="timeline-item">
             <h4 className="h4 timeline-item-title">
               Cognizant Technology And Solutions, Pune (Programmer Analyst
@@ -38,6 +75,7 @@ const Resume = () => {
         </ol>
       </section>
 
+      {/* Education */}
       <section className="timeline">
         <div className="title-wrapper">
           <div className="icon-box">
@@ -48,19 +86,7 @@ const Resume = () => {
         </div>
 
         <ol className="timeline-list">
-          <li className="timeline-item">
-            <h4 className="h4 timeline-item-title">NeoG Camp</h4>
-
-            <span>Feb 2023 — Present</span>
-
-            <p className="timeline-text">
-              Completed a comprehensive web development bootcamp, gaining
-              expertise in front-end technologies, including HTML, CSS, ReactJS,
-              JavaScript, Redux and Node.js. Proficient in building dynamic and
-              responsive web applications.
-            </p>
-          </li>
-
+          {/* Engineering */}
           <li className="timeline-item">
             <h4 className="h4 timeline-item-title">
               Kavikulguru Institute of Technology and Science, Ramtek
@@ -70,6 +96,32 @@ const Resume = () => {
 
             <p className="timeline-text">
               Bachelor of Engineering (Mechanical Engineering)
+            </p>
+          </li>
+
+          {/* HSC */}
+          <li className="timeline-item">
+            <h4 className="h4 timeline-item-title">
+              Jeevan Vikas Junior College, Umred
+            </h4>
+
+            <span>2016 — 2017</span>
+
+            <p className="timeline-text">
+              HSC (Stream - Science)
+            </p>
+          </li>
+
+          {/* SSC */}
+          <li className="timeline-item">
+            <h4 className="h4 timeline-item-title">
+              Jeevan Vikas Vidyalaya, Umred
+            </h4>
+
+            <span>2014 — 2015</span>
+
+            <p className="timeline-text">
+              SSC (Stream - Science)
             </p>
           </li>
         </ol>
