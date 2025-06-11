@@ -88,14 +88,14 @@ const Projects = () => {
             </a>
           </li>
 
-          {/* Pristine card */}
+          {/* Netflix */}
           <li
             className="project-item  active"
             data-filter-item
             data-category="web development"
           >
             <a
-              href="https://netaflix.netlify.app/"
+              href="https://netclo.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
